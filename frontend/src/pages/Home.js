@@ -45,7 +45,7 @@ const Home = () => {
     const actions = {
       patient: [
         { title: t('patient.consultation.title'), desc: t('patient.consultation.subtitle'), icon: '👨‍⚕️', link: '/consultation', color: 'primary' },
-        { title: 'Check Symptoms', desc: 'AI-powered symptom analysis', icon: '🔍', link: '/symptom-checker', color: 'info' },
+        { title: 'AI Symptom Checker', desc: 'AI-powered symptom analysis', icon: '🤖', link: '/ai-symptom-checker', color: 'info' },
         { title: t('navbar.records'), desc: t('records.subtitle'), icon: '📋', link: '/health-records', color: 'secondary' },
         { title: t('navbar.emergency'), desc: t('emergency.subtitle'), icon: '🚨', link: '/emergency', color: 'danger' }
       ],

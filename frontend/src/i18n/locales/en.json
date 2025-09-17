@@ -335,5 +335,96 @@
     "processingRequest": "Processing your request...",
     "analysisComplete": "Analysis complete",
     "errorOccurred": "An error occurred during analysis"
+  },
+  "aiAnalysis": {
+    "title": "AI Analysis Report",
+    "subtitle": "Intelligent Health Assessment and Recommendations",
+    "riskLevel": "Risk Level",
+    "confidence": "Confidence",
+    "possibleConditions": "Possible Conditions",
+    "aiCure": "AI Treatment Recommendation",
+    "doctorSolution": "Doctor Solution",
+    "recommendations": "Recommendations",
+    "emergencySigns": "Emergency Warning Signs",
+    "complications": "Potential Complications",
+    "prevention": "Prevention",
+    "duration": "Estimated Duration",
+    "similarCases": "Similar Patient Cases",
+    "aiInsights": "AI Insights",
+    "followUp": "Follow-up",
+    "riskLevels": {
+      "critical": "Critical",
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low",
+      "unknown": "Unknown"
+    },
+    "confidenceLevels": {
+      "veryHigh": "Very high confidence - symptoms closely match known cases",
+      "high": "High confidence - good symptom pattern match",
+      "moderate": "Moderate confidence - partial symptom match found",
+      "low": "Low confidence - limited symptom similarity",
+      "veryLow": "Very low confidence - no clear pattern match"
+    },
+    "followUpTimelines": {
+      "immediate": "Immediate emergency care required",
+      "urgent": "Seek medical attention within 2-4 hours",
+      "soon": "Schedule doctor visit within 24-48 hours",
+      "monitor": "Monitor symptoms, contact doctor if worsening"
+    },
+    "emergencyWarning": "⚠️ Emergency Warning",
+    "emergencyMessage": "This condition requires immediate medical attention. Call 108/102 immediately.",
+    "noAnalysisYet": "No analysis yet",
+    "enterSymptomsPrompt": "Enter your symptoms above and click analyze",
+    "analysisMethod": "Analysis Method",
+    "databaseCases": "Database Cases Analyzed",
+    "matchingAlgorithm": "Matching Algorithm",
+    "riskFactors": "Risk Factors",
+    "redFlags": "Red Flags",
+    "generalAdvice": {
+      "title": "General Health Advice",
+      "fever": "For fever: Rest in cool environment, drink plenty of fluids, take paracetamol as needed.",
+      "pain": "For pain: Apply appropriate hot/cold therapy, take pain relievers as directed, avoid strenuous activities.",
+      "respiratory": "For respiratory symptoms: Stay hydrated, use humidifier or steam inhalation, avoid smoking and pollutants.",
+      "digestive": "For digestive issues: Stay hydrated with clear fluids, eat bland foods, avoid dairy and fatty foods temporarily."
+    },
+    "emergencyNumbers": {
+      "title": "Emergency Numbers",
+      "ambulance": "Ambulance: 108",
+      "medical": "Medical Emergency: 102",
+      "police": "Police: 100",
+      "fire": "Fire Service: 101"
+    },
+    "disclaimer": {
+      "title": "Important Disclaimer",
+      "text": "This AI analysis is for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always consult with qualified healthcare professionals.",
+      "emergency": "In case of emergency, contact local emergency services immediately."
+    },
+    "actions": {
+      "bookConsultation": "Book Consultation",
+      "callEmergency": "Call Emergency",
+      "findDoctor": "Find Doctor",
+      "viewSimilarCases": "View Similar Cases",
+      "getSecondOpinion": "Get Second Opinion",
+      "saveReport": "Save Report",
+      "shareReport": "Share Report",
+      "printReport": "Print Report"
+    },
+    "caseDetails": {
+      "patientAge": "Patient Age",
+      "patientGender": "Patient Gender",
+      "symptoms": "Symptoms",
+      "diagnosis": "Diagnosis",
+      "treatment": "Treatment",
+      "outcome": "Outcome",
+      "similarityScore": "Similarity Score"
+    },
+    "tips": {
+      "title": "Tips for Better Results",
+      "specific": "Describe specific symptoms",
+      "multiple": "Include multiple related symptoms",
+      "medical": "Use medical terminology",
+      "demographics": "Provide age and gender information"
+    }
   }
 }

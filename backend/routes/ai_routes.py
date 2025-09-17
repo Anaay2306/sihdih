@@ -21,10 +21,16 @@ class SymptomAnalysisRequest(BaseModel):
 class SymptomAnalysisResponse(BaseModel):
     risk_level: str
     possible_conditions: List[str]
+    ai_cure: Optional[str] = ""
+    doctor_solution: Optional[str] = ""
     recommendations: List[str]
     similar_cases: List[dict]
     confidence: float
     emergency_required: bool
+    emergency_signs: Optional[List[str]] = []
+    complications: Optional[List[str]] = []
+    prevention: Optional[str] = ""
+    duration: Optional[str] = ""
     ai_insights: dict
 
 @router.post("/analyze-symptoms")
@@ -55,10 +61,16 @@ async def analyze_symptoms(request: SymptomAnalysisRequest):
         return SymptomAnalysisResponse(
             risk_level=ai_result["risk_level"],
             possible_conditions=ai_result["possible_conditions"],
+            ai_cure=ai_result.get("ai_cure", ""),
+            doctor_solution=ai_result.get("doctor_solution", ""),
             recommendations=ai_result["recommendations"],
             similar_cases=ai_result["similar_cases"],
             confidence=ai_result["confidence"],
             emergency_required=ai_result["emergency_required"],
+            emergency_signs=ai_result.get("emergency_signs", []),
+            complications=ai_result.get("complications", []),
+            prevention=ai_result.get("prevention", ""),
+            duration=ai_result.get("duration", ""),
             ai_insights=ai_insights
         )
         

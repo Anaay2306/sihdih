@@ -23,7 +23,6 @@ const Navbar = () => {
     const roleSpecificItems = {
       patient: [
         { path: '/consultation', label: t('navbar.consultation'), icon: '👨‍⚕️' },
-        { path: '/symptom-checker', label: t('common.symptoms'), icon: '🔍' },
         { path: '/ai-symptom-checker', label: `AI ${t('common.symptoms')}`, icon: '🤖' }
       ],
       doctor: [

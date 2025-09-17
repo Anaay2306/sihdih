@@ -1,0 +1,350 @@
+/* AI Analysis Report Styles */
+.ai-analysis-report {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.report-header {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.report-header h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.subtitle {
+  color: #6c757d;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+/* No Analysis State */
+.no-analysis {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 2px dashed #dee2e6;
+}
+
+.no-analysis h3 {
+  color: #6c757d;
+  margin-bottom: 15px;
+}
+
+.no-analysis p {
+  color: #868e96;
+  font-size: 1rem;
+}
+
+/* Emergency Warning */
+.emergency-warning {
+  background: linear-gradient(135deg, #dc3545, #c82333) !important;
+  border: none !important;
+  color: white !important;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 15px rgba(220, 53, 69, 0.3);
+}
+
+.emergency-warning h4 {
+  color: white !important;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.emergency-actions {
+  margin-top: 15px;
+}
+
+.emergency-actions .btn {
+  background: white;
+  color: #dc3545;
+  border: 2px solid white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.emergency-actions .btn:hover {
+  background: #f8f9fa;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Analysis Sections */
+.analysis-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  border-left: 4px solid #007bff;
+}
+
+.analysis-section h3 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.analysis-section ul {
+  padding-left: 20px;
+}
+
+.analysis-section li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+/* Risk Level */
+.risk-level-badge {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Confidence */
+.confidence-explanation {
+  color: #6c757d;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* Emergency Signs */
+.emergency-signs {
+  border-left-color: #dc3545 !important;
+  background: #fff5f5;
+}
+
+.warning-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.warning-item {
+  background: #fee;
+  border: 1px solid #fcc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 8px;
+  color: #721c24;
+}
+
+/* Cure and Doctor Solution */
+.cure-content,
+.doctor-solution {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 6px;
+  border-left: 4px solid #28a745;
+  margin-top: 10px;
+}
+
+.doctor-solution {
+  border-left-color: #007bff;
+}
+
+/* Similar Cases */
+.similar-cases {
+  display: grid;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.case-card {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #dee2e6;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.case-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.case-card h4 {
+  color: #495057;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.case-card p {
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+/* AI Insights */
+.ai-insights {
+  background: #e3f2fd;
+  padding: 15px;
+  border-radius: 6px;
+  border-left: 4px solid #2196f3;
+}
+
+.ai-insights p {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+/* Action Buttons */
+.analysis-actions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+
+.analysis-actions .btn {
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  min-width: 140px;
+}
+
+.analysis-actions .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Emergency Numbers */
+.emergency-numbers {
+  background: #fff3cd;
+  border: 1px solid #ffeaa7;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.emergency-numbers h4 {
+  color: #856404;
+  margin-bottom: 15px;
+}
+
+.emergency-contacts {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.emergency-contacts span {
+  background: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-weight: 500;
+  color: #856404;
+  border: 1px solid #ffeaa7;
+  font-size: 0.9rem;
+}
+
+/* Disclaimer */
+.disclaimer {
+  background: #f1f3f4;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 30px;
+  font-size: 0.9rem;
+}
+
+.disclaimer h4 {
+  color: #5f6368;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.disclaimer p {
+  color: #5f6368;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .ai-analysis-report {
+    padding: 15px;
+  }
+  
+  .analysis-section {
+    padding: 15px;
+  }
+  
+  .analysis-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .analysis-actions .btn {
+    width: 100%;
+    max-width: 250px;
+  }
+  
+  .emergency-contacts {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .emergency-contacts span {
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+  }
+  
+  .report-header h2 {
+    font-size: 1.6rem;
+  }
+}
+
+/* Punjabi Font Support */
+.ai-analysis-report[lang="pa"] {
+  font-family: 'Noto Sans Gurmukhi', 'Raavi', sans-serif;
+}
+
+.ai-analysis-report[lang="pa"] h2,
+.ai-analysis-report[lang="pa"] h3,
+.ai-analysis-report[lang="pa"] h4 {
+  font-weight: 600;
+}
+
+/* Print Styles */
+@media print {
+  .ai-analysis-report {
+    box-shadow: none;
+    padding: 0;
+  }
+  
+  .analysis-actions,
+  .emergency-numbers {
+    display: none;
+  }
+  
+  .analysis-section {
+    box-shadow: none;
+    border: 1px solid #dee2e6;
+    break-inside: avoid;
+  }
+  
+  .emergency-warning {
+    background: #dc3545 !important;
+    color: white !important;
+  }
+}

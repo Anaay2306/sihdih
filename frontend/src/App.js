@@ -8,7 +8,6 @@ import Home from './pages/Home';
 import Consultation from './pages/Consultation';
 import HealthRecords from './pages/HealthRecords';
 import Pharmacy from './pages/Pharmacy';
-import SymptomChecker from './pages/SymptomChecker';
 import AISymptomChecker from './pages/AISymptomChecker';
 import DoctorDashboard from './pages/DoctorDashboard';
 import Emergency from './pages/Emergency';
@@ -179,7 +178,6 @@ function App() {
                   <Route path="/consultation" element={<Consultation />} />
                   <Route path="/health-records" element={<HealthRecords />} />
                   <Route path="/pharmacy" element={<Pharmacy />} />
-                  <Route path="/symptom-checker" element={<SymptomChecker />} />
                   <Route path="/ai-symptom-checker" element={<AISymptomChecker />} />
                   <Route path="/emergency" element={<Emergency />} />
                   <Route path="/profile" element={<Profile />} />
